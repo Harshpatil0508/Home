@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+
+header {
+  background: #444;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.content, .camera-container {
+  text-align: center;
+  margin: 20px;
+}
+
+.btn {
+  padding: 10px 20px;
+  color: white;
+  background: #007bff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #0056b3;
+}
