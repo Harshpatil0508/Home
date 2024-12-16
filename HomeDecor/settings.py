@@ -27,10 +27,6 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["ar_app.onrender.com", "localhost"]
 
-from decouple import config
-
-SECRET_KEY = config('SECRET_KEY')
-DEBUG = config('DEBUG', default=False, cast=bool)
 # Application definition
 
 INSTALLED_APPS = [
